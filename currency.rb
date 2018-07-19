@@ -2,7 +2,7 @@
 
 def usd_to_eur(dollar)
   euro = dollar/1.2
-  return 
+  return
 
 end
 
