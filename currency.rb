@@ -8,5 +8,5 @@ end
 
 def eur_to_usd(euro)
   dollar = euro * 1.2
-  return dollar 
+  return dollar
 end
