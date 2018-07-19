@@ -2,7 +2,7 @@
 
 def usd_to_eur(dollar)
   dollar.to_i
-  euro = dollar * .86
+  euro = dollar * 0.86
   return euro
 
 end
