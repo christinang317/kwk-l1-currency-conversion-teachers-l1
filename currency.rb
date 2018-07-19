@@ -48,27 +48,27 @@ choice = gets.chomp().to_i
 
 case choice
 when 1
-   usd_to_eur(m)
+   usd_to_eur(money)
 when 2
-   usd_to_jpy(m)
+   usd_to_jpy(money)
 when 3
   #code here
-   usd_to_gbp(m)
+   usd_to_gbp(money)
 when 4
   #code here
-  usd_to_aud(m)
+  usd_to_aud(money)
 when 5
   #code here
-  eur_to_usd(m)
+  eur_to_usd(money)
 when 6
   #code here
-  jpy_to_usd(m)
+  jpy_to_usd(money)
 when 7
   #code here
-  gbp_to_usd(m)
+  gbp_to_usd(money)
 when 8
   #code here
-  aud_to_usd(m)
+  aud_to_usd(money)
 else
   puts "Invalid input, exiting..."
 end
