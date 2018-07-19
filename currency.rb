@@ -1,6 +1,6 @@
 # Write your cod here
 
-def usd_to_eur(dollar) 
+def usd_to_eur(dollar)
   euro = dollar/1.2
   return euro
 
@@ -22,12 +22,12 @@ def jpy_to_usd(yen)
 end
 
 def usd_to_gbp(dollars)
-  pound = dollar/0.7
+  pound = dollar/1.2
   return pound
 end
 
 def gbp_to_usd(pounds)
-  dollar = pounds * 1.3
+  dollar = pounds * 1.2
   return dollar
 end
 
@@ -39,5 +39,4 @@ end
 def aud_to_usd(dollar)
   usd = dollar * 0.76
   return usd
-
 end
