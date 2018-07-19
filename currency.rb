@@ -22,18 +22,22 @@ def jpy_to_usd(yen)
 end
 
 def usd_to_gbp(dollars)
-
+  pound = dollar/0.7
+  return pound
 end
 
 def gbp_to_usd(pounds)
-
+  dollar = pounds * 1.3
+  return dollar
 end
 
 def usd_to_aud(dollar)
-
+  aus = dollar/1.3
+  return aus 
 end
 
 def aud_to_usd(dollar)
+  usd = dollar * 0.76
+  return usd
 
-end 
-
+end
