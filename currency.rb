@@ -66,7 +66,7 @@ when 6
 when 7
   #code here
   gbp_to_usd(money)
-when 8 
+when 8
   #code here
   aud_to_usd(money)
 else
