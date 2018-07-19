@@ -1,43 +1,34 @@
 # Write your cod here
-
-def usd_to_eur(dollar)
-  euro = dollar/1.2
-  return euro
-
+def usd_to_eur(money)
+  money/1.2
 end
 
-def eur_to_usd(euro)
-  dollar = euro * 1.2
-  return dollar
+def eur_to_usd(money)
+  money * 1.2
 end
 
-def usd_to_jpy(dollar)
-  yen = dollar/112.44
-  return yen
+def usd_to_jpy(money)
+  money * 110.78
 end
 
-def jpy_to_usd(yen)
-  dollar = yen * 0.0089
-  return dollar
+def usd_to_gbp(money)
+  money * 0.76
 end
 
-def usd_to_gbp(dollars)
-  pound = dollar/0.7
-  return pound
+def usd_to_aud(money)
+  money * 1.36
 end
 
-def gbp_to_usd(pounds)
-  dollar = pounds * 1.3
-  return dollar
+def jpy_to_usd(money)
+  money/110.78
 end
 
-def usd_to_aud(dollar)
-  aus = dollar/1.3
-  return aus
+def gbp_to_usd(money)
+  money/0.76
 end
 
-def aud_to_usd(dollar)
-  usd = dollar * 0.76
-  return usd
-
-end
+def aud_to_usd(money)
+  money/1.36
+end 
+  
+  
