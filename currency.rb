@@ -2,12 +2,12 @@
 
 def usd_to_eur(dollar)
   dollar.to_i
-  euro = dollar/0.86
+  euro = dollar/1.2
   puts euro
 
 end
 
 def eur_to_usd(euro)
   euro.to_i
-  dollar = euro * 1.16
+  dollar = euro * 1.2
 end
