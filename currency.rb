@@ -29,6 +29,6 @@ end
 
 def aud_to_usd(money)
   money/1.36
-end 
-  
+end
+
   
