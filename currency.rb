@@ -9,5 +9,5 @@ end
 
 def eur_to_usd(euro)
   euro.to_i
-  dollar = 
+  dollar = euro * 1.16
 end
