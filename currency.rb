@@ -33,7 +33,7 @@ end
 
 puts "How much money do you want to convert?"
 amount = gets.chomp().to_i
- 
+
 puts "Pick from the following menu:"
 puts "1. USD to EUR"
 puts "2. USD to JPY"
@@ -43,12 +43,12 @@ puts "5. EUR to USD"
 puts "6. JPY to USD"
 puts "7. GBP to USD"
 puts "8. AUD to USD"
- 
+
 choice = gets.chomp().to_i
- 
+
 case choice
 when 1
-  
+
 when 2
   #code here
 when 3
@@ -66,6 +66,3 @@ when 8
 else
   puts "Invalid input, exiting..."
 end
- 
-
-  
