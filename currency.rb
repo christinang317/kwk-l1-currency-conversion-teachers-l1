@@ -20,3 +20,20 @@ def jpy_to_usd(yen)
   dollar = yen * 0.0089
   return dollar
 end
+
+def usd_to_gbp(dollars)
+
+end
+
+def gbp_to_usd(pounds)
+
+end
+
+def usd_to_aud(dollar)
+
+end
+
+def aud_to_usd(dollar)
+
+end 
+
