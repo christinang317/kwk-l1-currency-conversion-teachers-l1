@@ -33,7 +33,7 @@ end
 
 def usd_to_aud(dollar)
   aus = dollar/1.3
-  return aus 
+  return aus
 end
 
 def aud_to_usd(dollar)
